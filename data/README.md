@@ -2,13 +2,10 @@
 
 Place the following input files in this folder before running the scripts.
 
-## `log2_dataset_frame.csv`  (not included)
+## `log2_dataset_frame.csv` 
 Merged expression matrix used as the feature space.
 - Rows: genes (first column `gene`/`Symbol`), Columns: 223 biological samples (GSM/accession IDs).
 - Values: log2-transformed expression; no batch correction applied.
-- ~26 MB and derived entirely from public data, so it is **not** committed here.
-  Rebuild it from the accession numbers listed in the manuscript Supplementary Table
-  (GEO / ArrayExpress), or request it from the authors.
 
 ## `Label_genes.csv`  (include this)
 Gene-level labels used for training.
