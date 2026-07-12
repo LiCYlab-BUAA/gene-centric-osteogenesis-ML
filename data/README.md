@@ -13,7 +13,7 @@ Gene-level labels used for training.
 - `Label = 1` → positive (osteoblast differentiation); `Label = 0` → negative (adipogenesis).
 - Labels are derived from Gene Ontology (161 genes total).
 
-## `sample_dataset_map.xlsx` / `.csv`  (only for figS4_pca_batch.R)
+## `sample_dataset_map.xlsx`  (only for figS4_pca_batch.R)
 Maps each sample to its dataset of origin, for colouring the PCA.
 - Columns: `Sample` (GSM ID, matching the matrix column names), `Dataset` (e.g. GSE1367).
 - Build from the manuscript Supplementary Table.
