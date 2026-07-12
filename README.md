@@ -48,7 +48,7 @@ The scripts expect two input files in `data/` (details in [`data/README.md`](dat
 
 | File | Description |
 |------|-------------|
-| `log2_dataset_frame.csv` | Merged expression matrix, genes × 223 samples, log2-transformed. **Not distributed here** (≈26 MB, derived entirely from public datasets); rebuild from the accessions listed in the manuscript Supplementary Table, or obtain from the authors. |
+| `log2_dataset_frame.csv` | Merged expression matrix, genes × 223 samples, log2-transformed. |
 | `Label_genes.csv` | Two columns, `Symbol` and `Label` (1 = positive/osteoblast differentiation, 0 = negative/adipogenesis). |
 
 All expression data originate from publicly available repositories (GEO / ArrayExpress); the complete
