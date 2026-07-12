@@ -105,18 +105,6 @@ paths if your layout differs).
 
 ---
 
-## Notes
-
-- **Held-out evaluation.** All reported metrics come from repeated random 80/20 gene-level hold-out
-  resampling; each gene is scored only in cycles where it is held out of training, so figures such as
-  Fig S5 reflect out-of-sample behaviour rather than training fit.
-- **SVM.** `svm.R` is the training loop (`kernlab::ksvm`, RBF kernel `rbfdot`, `C = 1`), structurally
-  identical to the other three original models; `svm_roc_analysis.R` operates on its output table.
-- Absolute `setwd()` paths from the original working environment have been removed; set the working
-  directory to the repository root before running.
-
----
-
 ## Citation
 
 If you use this code, please cite the associated manuscript (details to be added on publication).
